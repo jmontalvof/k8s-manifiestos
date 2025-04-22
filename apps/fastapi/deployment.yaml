@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: fastapi
-        image: tiangolo/uvicorn-gunicorn-fastapi:python3.9
+        image: jmontalvof/fastapi-k8s:v1
         ports:
         - containerPort: 80
